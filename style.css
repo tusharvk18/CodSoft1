@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header 
+{
+    height: 60px;   
+             
+    background-color:#0f1111; 
+    color:white; 
+    display: flex;
+    align-items: center;  
+    justify-content:space-evenly;
+}
+nav 
+{
+    height: 50px;   
+             
+    background-color:#222f3d;
+    color:white; 
+    display: flex;
+    align-items: center;  
+    justify-content:space-evenly;
+}
+
+
+#hero
+{
+    
+    color: crimson;
+    text-align: center;
+}
+
+#hero p
+{
+    color:darkmagenta;
+    font-weight: bolder;
+    font-family: Arial;
+}
+
+#hero h2
+{
+font-family: 'sans-serif';
+font-size: 30px;
+
+}
+
+#about 
+{
+    
+    
+    display: flex;
+   
+}
+
+.ab 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutus
+{
+    height: 100px;
+    width:100%;
+    color: rgb(255, 0, 0);
+    background-color: rgba(255, 255, 0, 0.615);
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    
+}
+
+#about p
+{
+text-align: center;
+}
+
+#services 
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: underline;
+}
+
+.shop-section
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+.box
+{
+    
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+}
+
+.box-img 
+{
+    height: 300px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;;
+
+}
+
+.box-content
+{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.box-content p
+{
+color: #007185;
+}
+.contactus
+{
+    height: 40px;
+    width: 100%;
+    color: black;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#contact 
+{
+    height: 40px;
+    width: 100%;
+    background-color: #222f3d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer 
+{
+    height: 40px;
+    width: 100%;
+    background-color: #e2e7e6;;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
